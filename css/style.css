@@ -1,0 +1,295 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700');
+
+body {
+  color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar{
+    margin-bottom: 0;
+    border-radius: 0;
+    color:#000000;
+    padding: 2% 0;
+    background-color:#000000;
+    border:0;
+    min-height: 10%;
+   
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    font-size: larger;
+    font-family: Raleway, sans-serif;
+    font-weight: bolder;
+    padding-right: 20px;
+    font-size: 2.2em;
+}
+
+nav navbar-nav navbar-right{
+  color: #ffffff;
+}
+.navbar-wrapper {
+  position: relative;
+  padding: 15px;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+  margin-top: 0;
+  background-color: #000000;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.navbar-wrapper .navbar .container {
+  width: 100%;
+}
+
+
+.navbar-inverse {
+    background-color: #000000;
+    border-color: #080808;
+    height: 80%;
+    padding-top: 2%;
+    padding-bottom:2%;
+}
+
+
+/* CUSTOMIZE Logo
+-------------------------------------------------- */
+.navbar-brand{
+    margin-bottom:0;
+    padding-top: 2%;
+    padding-left: 1%;
+    position: relative;
+    border:0;
+    display: ;
+    float: left;
+    height: 5%;
+    font-size: 5%;
+    line-height: 5%;
+    padding-bottom: 2%;
+}
+#brand-image {
+    height: 120px;
+    width: 130px;
+    position: relative;
+    
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+
+
+/* Carousel base class */
+.carousel {
+  height:700px;
+  margin-bottom: 0px;
+  
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  text-shadow: 3px 3px #000000;
+  font-family: Raleway, sans-serif;
+  background-color:rgb(255, 0, 0, 0.6);
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: relative;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 700px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+.bg-color{
+  background-color: #000000;
+  padding-top: 20px;
+  
+}
+.container.marketing{
+  background-color: #000000;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+  font-family: Raleway, sans-serif;
+
+}
+
+
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: -1px;
+  font-family: Raleway, sans-serif;
+  color: #ffffff;
+}
+
+.text-muted .lead{
+  font-family: Raleway, sans-serif;
+  color: #f2f2f2;
+  
+}
+
+/*..................................................Links*/
+
+.social-links{
+    padding-top: 1%;
+    padding-bottom: 8%;
+    display: inline-block;
+    text-align: center;
+    
+    
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 7px;
+    text-align: center;
+    color: #ffffff;
+    background:#cc0000;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    
+    
+}
+
+.social-links li a i:hover {
+    background: #fd0000;
+}
+
+.inline-block {
+    padding-top: 1%;
+    padding-bottom: 8%;
+    display: inline-block;
+    text-align: center;
+}
+
+.inline-block a .glyphicon {
+    padding-top: 1%;
+    text-decoration: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    font-size: 15px;
+    line-height: 7px;
+    text-align: center;
+    color: #ffffff;
+    background:#cc0000;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    
+}
+
+.inline-block a .glyphicon:hover{
+    background: #fd0000;
+}
+
+.link-text {
+    margin-top: 2%;
+    font-size: 100%;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+   
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+@media (min-width: 768px){
+  .navbar-wrapper {
+    margin-top: 0;
+}

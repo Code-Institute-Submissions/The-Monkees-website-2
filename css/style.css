@@ -300,6 +300,9 @@ button[type="submit"]:hover {
    
 }
 
+
+/*........................................Video*/
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -316,6 +319,7 @@ button[type="submit"]:hover {
     padding-right: 0;
     padding-left: 0;
   }
+  
 
   /* The navbar becomes detached from the top, so we round the corners */
   .navbar-wrapper .navbar {
@@ -344,3 +348,5 @@ button[type="submit"]:hover {
   .navbar-wrapper {
     margin-top: 0;
 }
+}
+

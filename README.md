@@ -51,7 +51,7 @@ All contributions to improving our code and accept pull requests are welcome.
  
 ### Deployment
 1.Clone this repository by opening your Terminal, change the current working directory to the location where you want the cloned directory to be made.
-    2.Type $ git clone " https://justynagrze.github.io/The-Monkees-website/"and hit Enter. Your repository will be ready.
+    2.Type $ git clone " https://justynagrze.github.io/The-Monkees-website/" and hit Enter. Your repository will be ready.
 3.Run the index.html, open in a broswer and the page will display
 
 ## Credits
